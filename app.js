@@ -40,7 +40,7 @@ const obtenerConsejo = async () => {
 
         // 2.4 Muestra el consejo en el HTML usando Template Literals (``)
         // TODO: textoConsejo.textContent = ...
-        textoConsejo.textContent = `"${consejo}"`;
+        textoConsejo.textContent = `🫠 "${consejo}"`;
         
     } catch (error) {
         // Qué pasa si hay un error (ej. el usuario se queda sin internet)
